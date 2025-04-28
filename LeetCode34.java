@@ -8,7 +8,7 @@ public class LeetCode34 {
         System.out.println(Arrays.toString(solution.searchRange(nums, target)));
     }
 
-    // TODO: find first index of target using Binary Search. If not -1 then perform another binary search for left part, then right part. Do that until -1
+    // TODO: find first index of target using Binary Search. If not -1 then perform another binary search for left part, then right part. Do that until both are -1. Return the value before being -1
     public int[] searchRange(int[] nums, int target) {
         int index = binarySearch(nums, target, 0, nums.length - 1);
         int left = index;
