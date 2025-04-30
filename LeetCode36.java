@@ -3,6 +3,7 @@ public class LeetCode36 {
     //  To check one can use an array of int to store availability of a number (this array contains 9 int)
     //  Therefore we would need an array of array to check each line, or each column/each submatrix
     //  One can also use bit manipulation and treat each integer as a virtual 'array'
+    //  https://www.geeksforgeeks.org/check-if-given-sudoku-board-configuration-is-valid-or-not/
     public boolean isValidSudoku(char[][] board) {
         /// we have 9 rows and each row contains 9 different digits
         int[][] rows = new int[9][9];
@@ -50,5 +51,4 @@ public class LeetCode36 {
         }
         return true;
     }
-
 }
