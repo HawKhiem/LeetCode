@@ -2,18 +2,12 @@ public class LeetCode38 {
     public static void main(String[] args) {
         LeetCode38 leetcode = new LeetCode38();
         System.out.println(leetcode.countAndSay(6));
-//        System.out.println(leetcode.rle("111211"));
     }
 
     public String countAndSay(int n) {
         if (n < 1) {
             return null;
         }
-//        if (n == 1) {
-//            return "1";
-//        } else {
-//            return rle(countAndSay(n - 1));
-//        }
         String result = "1";
         for (int i = 1; i < n; i++) {
             result = rle(result);
