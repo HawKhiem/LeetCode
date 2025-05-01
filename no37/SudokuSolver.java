@@ -149,7 +149,7 @@ public class SudokuSolver {
                 if (solveSudokuBitMaskingRec(board, rows, cols, subs, row, col + 1)) {
                     return true;
                 }
-                /// undo the changes
+                /// undo the changes. ~ flips all the bits.
                 board[row][col] = '.';
                 rows[row] &= ~(1 << i);
                 cols[col] &= ~(1 << i);
