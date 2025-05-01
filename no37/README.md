@@ -45,3 +45,21 @@ board = [
 - `board[i].length == 9`
 - `board[i][j]` is a digit or `'.'`.
 - It is guaranteed that the input board has only one solution.
+
+## Pseudocode: `FIND_SOLUTIONS`
+
+```pseudo
+void FIND_SOLUTIONS(parameters):
+
+    if (valid solution):
+        store the solution
+        return
+
+    for (all choices):
+        if (valid choice):
+            APPLY(choice)
+            FIND_SOLUTIONS(parameters)
+            BACKTRACK(remove choice)
+
+    return
+
