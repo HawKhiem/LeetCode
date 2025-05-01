@@ -1,4 +1,4 @@
-package no42;
+package TwoPointers.no42;
 
 public class TrappingRainWater {
     public static void main(String[] args) {
