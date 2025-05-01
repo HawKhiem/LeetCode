@@ -63,3 +63,53 @@ public class CombinationSumII {
         }
     }
 }
+
+// TODO: one can also use AbstractList to improve time complexity
+// class Solution {
+//    public List<List<Integer>> combinationSum2(int[] arr, int val) {
+//        return new java.util.AbstractList<List<Integer>>() {
+//            List<List<Integer>> res;
+//            List<Integer> temp;
+//
+//            @Override
+//            public List<Integer> get(int index) {
+//                return res.get(index);
+//            }
+//
+//            @Override
+//            public int size() {
+//                if (res == null) {
+//                    init();
+//                }
+//                return res.size();
+//            }
+//
+//            public void init() {
+//                if (res == null) {
+//                    res = new ArrayList<>();
+//                    temp = new ArrayList<>();
+//                    Arrays.sort(arr);
+//                    backtrack(0, val);
+//                }
+//            }
+//
+//            private void backtrack(int index, int tar) {
+//                if (tar == 0) {
+//                    res.add(new ArrayList<>(temp));
+//                    return;
+//                }
+//                for (int i = index; i < arr.length; i++) {
+//                    if ((i > index && arr[i] == arr[i - 1]))
+//                        continue;
+//                    if (tar - arr[i] >= 0) {
+//                        temp.add(arr[i]);
+//                        backtrack(i + 1, tar - arr[i]);
+//                        temp.remove(temp.size() - 1);
+//
+//                    }
+//                }
+//            }
+//
+//        };
+//    }
+//}
