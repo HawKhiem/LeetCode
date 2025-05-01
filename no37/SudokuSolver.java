@@ -14,7 +14,7 @@ public class SudokuSolver {
         System.out.println(Arrays.deepToString(board));
     }
 
-//    // TODO: naive use backtracking to solve the sudoku (Time: O(n*9(n*n)))
+//    // TODO: naive use backtracking to solve the sudoku (Time: O(n*g(n*n)))
 //    public void solveSudoku(char[][] board) {
 //        solveSudokuRec(board, 0, 0);
 //    }
@@ -79,7 +79,7 @@ public class SudokuSolver {
 //        return true;
 //    }
 
-    // TODO: one can also use bit masking to improve the time complexity
+    // TODO: one can also use bit masking to improve the time complexity (Time: O(g(n*n)))
     public void solveSudoku(char[][] board) {
         /// we have 9 rows, 9 columns and 9 submatrices and each has 9 numbers. Each bit in an integer can be used to represent if a digit has been used or not
         int[] rows = new int[9];
