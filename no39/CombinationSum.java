@@ -27,6 +27,7 @@ public class CombinationSum {
         /// if target is reached then add the temp list into result
         if (target == 0) {
             result.add(new ArrayList<>(temp));
+            return;
         }
         if (target < 0) {
             return;
