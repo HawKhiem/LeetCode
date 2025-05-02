@@ -43,23 +43,27 @@ public class WildcardMatching {
     public boolean isMatch(String s, String p) {
         int n = s.length();
         int m = p.length();
-        int i = 0, j = 0, startIndex = -1, match = 0;
+        int stringIndex = 0, patternIndex = 0, startIndex = -1, match = 0;
 
-        while (i < n) {
+        while (stringIndex < n) {
             /// Characters match or '?' in pattern matches any character.
-            if (j < m && (p.charAt(j) == '?' || p.charAt(j) == s.charAt(i))) {
-                i++;
-                j++;
-            } else if (j < m && p.charAt(j) == '*') {
+            if (patternIndex < m && (p.charAt(patternIndex) == '?' || p.charAt(patternIndex) == s.charAt(stringIndex))) {
+                stringIndex++;
+                patternIndex++;
+            } else if (patternIndex < m && p.charAt(patternIndex) == '*') {
                 /// Wildcard character '*', mark the current position in the pattern and the text as a proper match.
-                startIndex = j;
-                match = i;
-                j++;
-            } else if (startIndex != -1) {
+                startIndex = patternIndex;
+                /// start with the case where '*' match an empty string
+                match = stringIndex;
+                patternIndex++;
+            }
+            /// No match since all the above cases are not met
+            else if (startIndex != -1) {
                 /// No match, but a previous wildcard was found. Backtrack to the last '*' character position and try for a different match.
-                j = startIndex + 1;
+                patternIndex = startIndex + 1;
+                /// gradually increment match then assign it to string index. Basically 'skip' some characters, more each time, until a match is found
                 match++;
-                i = match;
+                stringIndex = match;
             } else {
                 /// If none of the above cases comply, the pattern does not match.
                 return false;
@@ -67,11 +71,11 @@ public class WildcardMatching {
         }
 
         /// Consume any remaining '*' characters in the given pattern.
-        while (j < m && p.charAt(j) == '*') {
-            j++;
+        while (patternIndex < m && p.charAt(patternIndex) == '*') {
+            patternIndex++;
         }
 
         /// If we have reached the end of both the pattern and the text, the pattern matches the text.
-        return j == m;
+        return patternIndex == m;
     }
 }
