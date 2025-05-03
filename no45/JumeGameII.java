@@ -44,15 +44,6 @@ public class JumeGameII {
 
     // TODO - Greedy approach: Time complexity: O(n), Only one traversal of the array is needed.
     //  Auxiliary Space: O(1), There is no extra space required.
-
-    //  Traverse the array and update the maximum reachable index based on the sum of the current index and its corresponding array value.
-    //  This helps determine how far the current jump can take us.
-    //  If the current index is equal to the current reachable index, then a jump is required.
-    //  We choose our jump in such a way that it takes us to the maximum possible index. Increment jump by 1 and update currReach to maxReach.
-    //  If the current index is equal to the maximum reachable index, it indicates that we cannot move beyond this point, so return -1.
-    //  Intuition: we iterate through the array and keep track of the max reachable index. This helps us avoid unnecessary jumps
-    //  the current reachable index makes sure that we only jumps when necessary, minimizing the number of jumps.
-    //  It only gets updated to the max reachable index when i is equal to the current reachable index, since after that point, we cannot move further.
     public int jump(int[] nums) {
         int n = nums.length;
         /// Initialize the variables maxReach = 0, currReach = 0, and jump = 0 to keep track of the maximum reachable index,
@@ -66,6 +57,8 @@ public class JumeGameII {
         }
 
         for (int i = 0; i < n - 1; i++) {
+            /// How do we know for sure that the max reach offers us the best possible solution? As we are iterating the array, we are assuming that we can reach every index.
+            /// Therefore we would never miss any better path. With the combination of currReach, we only jump when we must, therefore minimizing the jumps
             maxReach = Math.max(maxReach, i + nums[i]);
 
             /// If we can reach last index by jumping from current position return jump + 1
