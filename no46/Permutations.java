@@ -44,10 +44,9 @@ public class Permutations {
     }
 
 
-    // TODO - a better approach: swap the fixed index to the front and then generate all the permutations of the rest of the array.
-    //  Then swap the fixed index back to the original position.
-    //  Why do we have to swap the fixed index to the front? Because we would only generate the permutations of all the other numbers in the array.
-    //  Without swapping we will end up with a permutation already achieved or worse, mess up the whole array
+    // TODO - a better approach: generating the permutations by iteratively swapping the elements starting from the fixed index to the fixed index.
+    //  Intuition: [1], 2, 3 -> 2, 1, 3 || 3, 1, 2 (Simply by swapping the each index with the fixed index, we have generated some permutations)
+    //  To generate all permutations, we have to go deeper, to generate the deeper permutations
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         permuteRec(nums, result, 0);
