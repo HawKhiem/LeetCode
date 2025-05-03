@@ -8,22 +8,22 @@ public class NQueensII {
     }
 
     public int totalNQueens(int n) {
-        return totalNQueensRec(new int[n][n], 0, 0);
+        return totalNQueensRec(new int[n][n], 0);
     }
 
-    private int totalNQueensRec(int[][] board, int row, int count) {
+    private int totalNQueensRec(int[][] board, int row) {
         /// All queens placed
         if (row == board.length) {
             return 1;
         }
-
+        int count = 0;
         for (int i = 0; i < board.length; i++) {
             if (isSafeToPlace(board, row, i)) {
                 /// try placing the queen at the column
                 board[row][i] = 1;
 
                 /// increment count if the choice generates a solution
-                count += totalNQueensRec(board, row + 1, 0);
+                count += totalNQueensRec(board, row + 1);
 
                 /// undo the placement
                 board[row][i] = 0;
