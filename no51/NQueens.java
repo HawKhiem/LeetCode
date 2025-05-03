@@ -103,29 +103,4 @@ public class NQueens {
         return true;
     }
 
-//    private boolean isSafeToPlace(int[][] board, int row, int col) {
-//        int n = board.length;
-//        /// Check this col on upper side
-//        for (int i = 0; i < row; i++) {
-//            if (board[i][col] == 1) {
-//                return false;
-//            }
-//        }
-//
-//
-//        /// Check upper diagonal on left side
-//        for (int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--) {
-//            if (board[i][j] == 1) {
-//                return false;
-//            }
-//        }
-//
-//        /// Check lower diagonal on left side
-//        for (int i = row - 1, j = col + 1; j < n && i >= 0; i--, j++) {
-//            if (board[i][j] == 1) {
-//                return false;
-//            }
-//        }
-//        return true;
-//    }
 }
