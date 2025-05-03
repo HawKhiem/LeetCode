@@ -55,6 +55,12 @@ public class Permutations {
     }
 
     private void permuteRec(int[] nums, List<List<Integer>> result, int fixedIndex) {
+        /// At this point, what my naive approach would do is to add all the one-element array as separate lists to the result list.
+        /// Then move above and add the previous fixed element to the front of each list. Basically forming a horizontal solution from the bottom up.
+        /// Each layer generate lists, starting from the bottom layer with all the lists containing one element each, moving upwards and iteratively add more elements to
+        /// each list.
+
+        /// This approach forms the solution vertically, with the logic remaining the same. TODO: Can we perhaps also do the same to neural networks to improve the performance?
         if (fixedIndex == nums.length) {
             List<Integer> temp = new ArrayList<>();
             for (int num : nums) {
