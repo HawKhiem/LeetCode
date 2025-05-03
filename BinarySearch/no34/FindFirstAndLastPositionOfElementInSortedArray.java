@@ -1,4 +1,4 @@
-package no34;
+package BinarySearch.no34;
 
 import java.util.Arrays;
 

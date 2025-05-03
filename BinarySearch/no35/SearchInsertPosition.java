@@ -1,4 +1,4 @@
-package no35;
+package BinarySearch.no35;
 
 public class SearchInsertPosition {
 

@@ -1,4 +1,4 @@
-package no46;
+package BackTracking.no46;
 
 import java.util.ArrayList;
 import java.util.Arrays;

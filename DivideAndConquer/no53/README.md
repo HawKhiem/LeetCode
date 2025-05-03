@@ -44,12 +44,7 @@ The subarray `[4,-1,2,1]` has the largest sum = 6.
 
 ---
 
-### Code
+### Follow up:
 
-```python
-def maxSubArray(nums):
-    max_sum = current_sum = nums[0]
-    for num in nums[1:]:
-        current_sum = max(num, current_sum + num)
-        max_sum = max(max_sum, current_sum)
-    return max_sum
+If you have figured out the `O(n)` solution, try coding another solution using the divide and conquer approach, which is
+more subtle.

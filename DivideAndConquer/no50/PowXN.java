@@ -1,4 +1,4 @@
-package no50;
+package DivideAndConquer.no50;
 
 public class PowXN {
     // TODO: Using Divide and Conquer – O(log n) Time and O(log n) Space
