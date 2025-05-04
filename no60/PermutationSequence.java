@@ -29,6 +29,8 @@ public class PermutationSequence {
         //  After each swap, we need to sort the the whole array starting from end-i+1 with i being the base of the factorial
         //  The algorithm continues for larger factorial
         //  Remember we have to deal with the larger factorial first
+        //  Time: O(n*log(n)) - n*log(n) for sorting the subarray. Other than that we only have to iterate through the array once
+        //  Space: O(n) - for the result array
 
         /// Precompute all the needed factorials
         int kthIndex = k - 1;
