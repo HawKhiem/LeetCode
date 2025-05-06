@@ -7,6 +7,7 @@ public class SimplifyPath {
     public String simplifyPath(String path) {
         Stack<String> stack = new Stack<>();
         StringBuilder cur = new StringBuilder();
+        /// we add / so that the last directory is also handled in the if case in the for loop
         path += "/";
         for (int i = 0; i < path.length(); i++) {
             /// we ignore the / for now, i.e, we don't add them to cur
