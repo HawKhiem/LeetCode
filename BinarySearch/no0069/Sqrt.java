@@ -1,4 +1,4 @@
-package no0069;
+package BinarySearch.no0069;
 
 public class Sqrt {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package no0063;
+package DynamicProgramming.no0063;
 
 public class UniquePathsII {
     public static void main(String[] args) {

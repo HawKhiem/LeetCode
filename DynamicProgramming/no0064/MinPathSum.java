@@ -1,4 +1,4 @@
-package no0064;
+package DynamicProgramming.no0064;
 
 import java.util.List;
 
