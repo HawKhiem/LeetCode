@@ -1,4 +1,4 @@
-package no26;
+package no0026;
 
 public class RemoveDuplicatesFromSortedArray {
     public static void main(String[] args) {

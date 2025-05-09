@@ -1,4 +1,4 @@
-package HashMap.no49;
+package HashMap.no0049;
 
 import java.util.List;
 import java.util.Map;

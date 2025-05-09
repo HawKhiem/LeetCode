@@ -1,4 +1,4 @@
-package no36;
+package no0036;
 
 public class ValidSudoku {
     // TODO: Naive approach - check every line, every column and every sub matrix.

@@ -1,4 +1,4 @@
-package no12;
+package no0012;
 
 public class IntegerToRoman {
     public int[] cons = {1, 5, 10, 50, 100, 500, 1000};

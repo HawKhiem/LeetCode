@@ -1,4 +1,4 @@
-package no6;
+package no0006;
 
 public class ZigzagConversion {
     public String convert(String s, int numRows) {

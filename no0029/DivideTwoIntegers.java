@@ -1,4 +1,4 @@
-package no29;
+package no0029;
 
 public class DivideTwoIntegers {
     public static void main(String[] args) {

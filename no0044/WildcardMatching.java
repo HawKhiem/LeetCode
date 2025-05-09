@@ -1,4 +1,4 @@
-package no44;
+package no0044;
 
 public class WildcardMatching {
     public static void main(String[] args) {

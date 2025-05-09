@@ -1,4 +1,4 @@
-package no23;
+package no0023;
 
 public class MergeKSortedLists {
     public ListNode mergeKLists(ListNode[] lists) {

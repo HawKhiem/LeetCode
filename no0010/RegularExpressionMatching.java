@@ -1,4 +1,4 @@
-package no10;
+package no0010;
 
 //Regular Expression Matching
 public class RegularExpressionMatching {

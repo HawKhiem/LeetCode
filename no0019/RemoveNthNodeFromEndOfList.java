@@ -1,4 +1,4 @@
-package no19;
+package no0019;
 
 public class RemoveNthNodeFromEndOfList {
     public ListNode removeNthFromEnd(ListNode head, int n) {

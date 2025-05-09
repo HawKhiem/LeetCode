@@ -1,4 +1,4 @@
-package no43;
+package no0043;
 
 public class MultiplyStrings {
     public static void main(String[] args) {

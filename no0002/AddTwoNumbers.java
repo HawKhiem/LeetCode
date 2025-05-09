@@ -1,4 +1,4 @@
-package no2;
+package no0002;
 
 /**
  * Definition for singly-linked list.

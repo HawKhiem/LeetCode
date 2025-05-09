@@ -1,4 +1,4 @@
-package BackTracking.no47;
+package BackTracking.no0047;
 
 import java.util.ArrayList;
 import java.util.HashSet;

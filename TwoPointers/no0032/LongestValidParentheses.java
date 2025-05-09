@@ -1,4 +1,4 @@
-package TwoPointers.no32;
+package TwoPointers.no0032;
 
 import java.util.Stack;
 

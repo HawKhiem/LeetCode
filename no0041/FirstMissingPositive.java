@@ -1,4 +1,4 @@
-package no41;
+package no0041;
 
 public class FirstMissingPositive {
     public static void main(String[] args) {

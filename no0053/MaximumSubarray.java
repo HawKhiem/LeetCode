@@ -1,4 +1,4 @@
-package no53;
+package no0053;
 
 public class MaximumSubarray {
     public static void main(String[] args) {

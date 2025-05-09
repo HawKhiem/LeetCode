@@ -1,4 +1,4 @@
-package no38;
+package no0038;
 
 public class CountAndSay {
     public static void main(String[] args) {

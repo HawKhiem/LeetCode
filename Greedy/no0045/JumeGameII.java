@@ -1,4 +1,4 @@
-package Greedy.no45;
+package Greedy.no0045;
 
 public class JumeGameII {
     public static void main(String[] args) {

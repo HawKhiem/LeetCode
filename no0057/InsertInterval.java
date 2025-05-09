@@ -1,4 +1,4 @@
-package no57;
+package no0057;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -38,5 +38,5 @@ public class InsertInterval {
         // Return the result as a List<int[]>
         return res.toArray(new int[res.size()][]);
     }
-    
+
 }

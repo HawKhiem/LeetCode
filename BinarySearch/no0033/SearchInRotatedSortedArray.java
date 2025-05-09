@@ -1,4 +1,4 @@
-package BinarySearch.no33;
+package BinarySearch.no0033;
 
 public class SearchInRotatedSortedArray {
 

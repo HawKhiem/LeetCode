@@ -1,4 +1,4 @@
-package no9;
+package no0009;
 
 public class PalindromeNumber {
     public boolean isPalindrome(int x) {

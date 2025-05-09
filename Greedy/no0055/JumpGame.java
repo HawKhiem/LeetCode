@@ -1,4 +1,4 @@
-package Greedy.no55;
+package Greedy.no0055;
 
 public class JumpGame {
     // TODO - Greedy approach

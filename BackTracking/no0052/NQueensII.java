@@ -1,4 +1,4 @@
-package BackTracking.no52;
+package BackTracking.no0052;
 
 public class NQueensII {
 

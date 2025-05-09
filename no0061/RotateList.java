@@ -1,4 +1,4 @@
-package no61;
+package no0061;
 
 public class RotateList {
     public static void main(String[] args) {

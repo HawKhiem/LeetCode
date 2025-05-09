@@ -1,4 +1,4 @@
-package no48;
+package no0048;
 
 public class RotateImage {
     public static void main(String[] args) {

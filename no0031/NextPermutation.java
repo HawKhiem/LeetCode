@@ -1,4 +1,4 @@
-package no31;
+package no0031;
 
 public class NextPermutation {
     public void nextPermutation(int[] nums) {

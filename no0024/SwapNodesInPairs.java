@@ -1,4 +1,4 @@
-package no24;
+package no0024;
 
 public class SwapNodesInPairs {
     public static void main(String[] args) {

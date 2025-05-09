@@ -1,4 +1,4 @@
-package no25;
+package no0025;
 
 public class ReverseNodesInKGroup {
     private boolean found = false;
