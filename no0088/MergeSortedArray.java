@@ -1,26 +1,27 @@
 package no0088;
 
 public class MergeSortedArray {
+    // TODO: https://www.youtube.com/watch?v=P1Ic85RarKY
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        if (nums2.length == 0) {
-            return;
-        }
-        int one = 0;
-        int two = 0;
-        while (one < nums1.length) {
-            if (nums1[one] == 0) {
-                nums1[one] = nums2[two];
-                one++;
-                two++;
-            } else if (nums1[one] < nums2[two]) {
-                one++;
-            } else if (nums1[one] >= nums2[two]) {
-                int temp = nums1[one];
-                nums1[one] = nums2[two];
-                nums2[two] = temp;
-                one++;
-                two++;
+        /// last index nums1
+        int last = m + n - 1;
+
+        /// merge in reverse order
+        while (m > 0 && n > 0) {
+            if (nums1[m - 1] > nums2[n - 1]) {
+                nums1[last] = nums1[m - 1];
+                m--;
+            } else {
+                nums1[last] = nums2[n - 1];
+                n--;
             }
+            last--;
+        }
+        /// fill nums1 with leftover nums2 elements
+        while (n > 0) {
+            nums1[last] = nums2[n - 1];
+            n--;
+            last--;
         }
     }
 }
