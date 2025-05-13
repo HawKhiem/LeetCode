@@ -4,9 +4,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df022ee7-534f-4381-a085-2661484b0c80" name="Changes" comment="updates some links">
+    <list default="true" id="df022ee7-534f-4381-a085-2661484b0c80" name="Changes" comment="Change structures">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchTree/no103/BinaryTreeZigzagLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/no103/BinaryTreeZigzagLevelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearchTree/no102/BinaryTreeLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/no102/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0001/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0001/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0001/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0001/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0002/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0002/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0002/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0002/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0003/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0003/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0003/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0003/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0004/MedianOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0004/MedianOfTwoSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0004/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0004/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0005/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0005/LongestPalindromicSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0005/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0005/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0006/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0006/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0006/ZigzagConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0006/ZigzagConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0007/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0007/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0007/ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0007/ReverseInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0008/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0008/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0008/StringToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0008/StringToInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0009/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0009/PalindromeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0009/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0009/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0010/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0010/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0010/RegularExpressionMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0010/RegularExpressionMatching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0011/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0011/ContainerWithMostWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0011/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0011/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0012/IntegerToRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0012/IntegerToRoman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0012/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0012/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0013/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0013/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0013/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0013/RomanToInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0014/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0014/LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0014/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0014/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0015/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0015/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0015/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0015/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0016/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0016/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0016/ThreeSumClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0016/ThreeSumClosest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0017/LetterCombinationsOfAPhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0017/LetterCombinationsOfAPhoneNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0017/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0017/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0018/FourSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0018/FourSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0018/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0018/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0019/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0019/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0019/RemoveNthNodeFromEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0019/RemoveNthNodeFromEndOfList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0020/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0020/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0020/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0020/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0021/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0021/MergeTwoSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0021/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0021/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0022/GenerateParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0022/GenerateParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0022/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0022/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0023/MergeKSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0023/MergeKSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0023/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0023/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0024/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0024/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0024/SwapNodesInPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0024/SwapNodesInPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0025/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0025/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0025/ReverseNodesInKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0025/ReverseNodesInKGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0026/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0026/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0026/RemoveDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0026/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0027/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0027/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0027/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0027/RemoveElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0028/FindTheIndexOfTheFirstOccurrenceInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0028/FindTheIndexOfTheFirstOccurrenceInAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0028/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0028/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0029/DivideTwoIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0029/DivideTwoIntegers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0029/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0029/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0030/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0030/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0030/SubstringWithConcatenationOfAllWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0030/SubstringWithConcatenationOfAllWords.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +119,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "D:/Self Taught/LeetCode/BFS",
+    "last_opened_file_path": "D:/Self Taught/LeetCode/DynamicProgramming",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -71,13 +131,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Self Taught\LeetCode\DynamicProgramming" />
+      <recent name="D:\Self Taught\LeetCode\String" />
+      <recent name="D:\Self Taught\LeetCode\BFS\no102" />
       <recent name="D:\Self Taught\LeetCode\BFS" />
       <recent name="D:\Self Taught\LeetCode" />
-      <recent name="D:\Self Taught\LeetCode\no101" />
-      <recent name="D:\Self Taught\LeetCode\no0094" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="BinarySearchTree" />
+      <recent name="BackTracking" />
+      <recent name="List" />
+      <recent name="HashMap" />
+      <recent name="Math" />
+      <recent name="Array" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -112,7 +177,7 @@
       <option name="presentableId" value="Default" />
       <updated>1747086271816</updated>
       <workItem from="1747086273551" duration="1242000" />
-      <workItem from="1747114999028" duration="24141000" />
+      <workItem from="1747114999028" duration="25737000" />
     </task>
     <task id="LOCAL-00003" summary="unique binary search trees II using dynamic programming and add readmes">
       <option name="closed" value="true" />
@@ -202,7 +267,31 @@
       <option name="project" value="LOCAL" />
       <updated>1747149540556</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="zigzag level bst traversal">
+      <option name="closed" value="true" />
+      <created>1747150557068</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1747150557068</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update some structures">
+      <option name="closed" value="true" />
+      <created>1747150607982</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1747150607982</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Change structures">
+      <option name="closed" value="true" />
+      <created>1747151506844</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1747151506844</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +310,10 @@
     <MESSAGE value="recover binary search trees" />
     <MESSAGE value="binary tree level order with BFS" />
     <MESSAGE value="updates some links" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates some links" />
+    <MESSAGE value="zigzag level bst traversal" />
+    <MESSAGE value="update some structures" />
+    <MESSAGE value="Change structures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change structures" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -250,9 +342,9 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/no0097/InterleavingString.java</url>
+          <url>file://$PROJECT_DIR$/DynamicProgramming/no0097/InterleavingString.java</url>
           <line>14</line>
-          <properties class="no0097.InterleavingString" method="isInterleave">
+          <properties class="DynamicProgramming.no0097.InterleavingString" method="isInterleaveNaive">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

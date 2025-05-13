@@ -16,6 +16,7 @@ public class BinaryTreeLevelOrderTraversal {
         while (!queue.isEmpty()) {
             int qLength = queue.size();
             List<Integer> level = new ArrayList<>();
+            /// everything currently inside the queue are at the same level, therefore we have to traverse them
             for (int i = 0; i < qLength; i++) {
                 TreeNode node = queue.poll();
                 if (node != null) {
