@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df022ee7-534f-4381-a085-2661484b0c80" name="Changes" comment="recover binary search trees">
+    <list default="true" id="df022ee7-534f-4381-a085-2661484b0c80" name="Changes" comment="binary tree level order with BFS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BFS/no102/BinaryTreeLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/BFS/no102/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BinarySearchTree/no102/BinaryTreeLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/no102/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "D:/Self Taught/LeetCode",
+    "last_opened_file_path": "D:/Self Taught/LeetCode/BFS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -71,6 +72,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Self Taught\LeetCode\BFS" />
       <recent name="D:\Self Taught\LeetCode" />
       <recent name="D:\Self Taught\LeetCode\no101" />
       <recent name="D:\Self Taught\LeetCode\no0094" />
@@ -111,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1747086271816</updated>
       <workItem from="1747086273551" duration="1242000" />
-      <workItem from="1747114999028" duration="22986000" />
+      <workItem from="1747114999028" duration="23146000" />
     </task>
     <task id="LOCAL-00003" summary="unique binary search trees II using dynamic programming and add readmes">
       <option name="closed" value="true" />
@@ -177,7 +179,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747148640424</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="binary tree level order with BFS">
+      <option name="closed" value="true" />
+      <created>1747149388553</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1747149388553</updated>
+    </task>
+    <task id="LOCAL-00012" summary="binary tree level order with BFS">
+      <option name="closed" value="true" />
+      <created>1747149435469</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1747149435469</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +212,8 @@
     <MESSAGE value="same trees" />
     <MESSAGE value="symmetric trees" />
     <MESSAGE value="recover binary search trees" />
-    <option name="LAST_COMMIT_MESSAGE" value="recover binary search trees" />
+    <MESSAGE value="binary tree level order with BFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary tree level order with BFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

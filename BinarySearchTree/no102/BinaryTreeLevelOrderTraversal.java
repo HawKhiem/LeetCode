@@ -7,6 +7,7 @@ import java.util.Queue;
 
 public class BinaryTreeLevelOrderTraversal {
     // TODO - Breadth First Search
+    //  https://www.youtube.com/watch?v=6ZnyEApgFYg
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
         Queue<TreeNode> queue = new LinkedList<>();
@@ -48,4 +49,25 @@ public class BinaryTreeLevelOrderTraversal {
             this.right = right;
         }
     }
+
+    // TODO - a beautiful solution:
+    //     public List<List<Integer>> levelOrder(TreeNode root) {
+    //        List<List<Integer>> levelOrderRes = new LinkedList<>();
+    //        if(root==null){
+    //            return levelOrderRes;
+    //        }
+    //        helper(root, 0, levelOrderRes);
+    //        return levelOrderRes;
+    //    }
+    //    public void helper(TreeNode p, int level, List<List<Integer>> levelOrderRes){
+    //        if(p== null){
+    //            return;
+    //        }
+    //        if(levelOrderRes.size()== level) {
+    //            levelOrderRes.add(new LinkedList<>());
+    //        }
+    //        levelOrderRes.get(level).add(p.val);
+    //        helper(p.left, level+1, levelOrderRes);
+    //        helper(p.right, level+1, levelOrderRes);
+    //    }
 }
