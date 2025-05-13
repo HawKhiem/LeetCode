@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df022ee7-534f-4381-a085-2661484b0c80" name="Changes" comment="unique binary search trees II using dynamic programming and add readmes">
+    <list default="true" id="df022ee7-534f-4381-a085-2661484b0c80" name="Changes" comment="unique binary search trees I using dynamic programming">
+      <change afterPath="$PROJECT_DIR$/no0097/InterleavingString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/no0096/UniqueBinarySearchTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/no0096/UniqueBinarySearchTrees.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.InterleavingString.executor": "Run",
     "Application.UniqueBinarySearchTrees.executor": "Run",
     "Application.UniqueBinarySearchTreesII.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -107,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1747086271816</updated>
       <workItem from="1747086273551" duration="1242000" />
-      <workItem from="1747114999028" duration="7554000" />
+      <workItem from="1747114999028" duration="10650000" />
     </task>
     <task id="LOCAL-00003" summary="unique binary search trees II using dynamic programming and add readmes">
       <option name="closed" value="true" />
@@ -117,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747122043473</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="unique binary search trees I using dynamic programming">
+      <option name="closed" value="true" />
+      <created>1747122876374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747122876374</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +136,8 @@
     <MESSAGE value="add readme for 94" />
     <MESSAGE value="add readmes" />
     <MESSAGE value="unique binary search trees II using dynamic programming and add readmes" />
-    <option name="LAST_COMMIT_MESSAGE" value="unique binary search trees II using dynamic programming and add readmes" />
+    <MESSAGE value="unique binary search trees I using dynamic programming" />
+    <option name="LAST_COMMIT_MESSAGE" value="unique binary search trees I using dynamic programming" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -154,6 +164,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/no0097/InterleavingString.java</url>
+          <line>14</line>
+          <properties class="no0097.InterleavingString" method="isInterleave">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
