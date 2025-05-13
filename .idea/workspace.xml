@@ -4,9 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df022ee7-534f-4381-a085-2661484b0c80" name="Changes" comment="interleaving String with hashmap and dynamic programming">
-      <change afterPath="$PROJECT_DIR$/no0098/ValidateBinarySearchTree.java" afterDir="false" />
+    <list default="true" id="df022ee7-534f-4381-a085-2661484b0c80" name="Changes" comment="validate binary search tree">
+      <change afterPath="$PROJECT_DIR$/BinarySearchTree/no0099/RecoverBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearchTree/no101/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearchTree/no102/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearchTree/no103/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearchTree/no104/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0095/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/no0095/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0095/UniqueBinarySearchTreesII.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/no0095/UniqueBinarySearchTreesII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0096/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/no0096/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0096/UniqueBinarySearchTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/no0096/UniqueBinarySearchTrees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0098/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/no0098/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0098/ValidateBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/no0098/ValidateBinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0099/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/no0099/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no0100/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/no0100/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no101/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/no102/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/no103/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/no104/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +91,9 @@
       <recent name="D:\Self Taught\LeetCode\no101" />
       <recent name="D:\Self Taught\LeetCode\no0094" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="BinarySearchTree" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -108,7 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1747086271816</updated>
       <workItem from="1747086273551" duration="1242000" />
-      <workItem from="1747114999028" duration="14823000" />
+      <workItem from="1747114999028" duration="15246000" />
     </task>
     <task id="LOCAL-00003" summary="unique binary search trees II using dynamic programming and add readmes">
       <option name="closed" value="true" />
@@ -134,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747125990969</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="validate binary search tree">
+      <option name="closed" value="true" />
+      <created>1747130460818</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747130460818</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,29 +173,30 @@
     <MESSAGE value="unique binary search trees II using dynamic programming and add readmes" />
     <MESSAGE value="unique binary search trees I using dynamic programming" />
     <MESSAGE value="interleaving String with hashmap and dynamic programming" />
-    <option name="LAST_COMMIT_MESSAGE" value="interleaving String with hashmap and dynamic programming" />
+    <MESSAGE value="validate binary search tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="validate binary search tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/no0095/UniqueBinarySearchTreesII.java</url>
+          <url>file://$PROJECT_DIR$/BinarySearchTree/no0095/UniqueBinarySearchTreesII.java</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/no0095/UniqueBinarySearchTreesII.java</url>
+          <url>file://$PROJECT_DIR$/BinarySearchTree/no0095/UniqueBinarySearchTreesII.java</url>
           <line>11</line>
-          <properties class="no0095.UniqueBinarySearchTreesII" method="generateTrees">
+          <properties class="BinarySearchTree.no0095.UniqueBinarySearchTreesII">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/no0095/UniqueBinarySearchTreesII.java</url>
+          <url>file://$PROJECT_DIR$/BinarySearchTree/no0095/UniqueBinarySearchTreesII.java</url>
           <line>50</line>
-          <properties class="no0095.UniqueBinarySearchTreesII">
+          <properties class="BinarySearchTree.no0095.UniqueBinarySearchTreesII">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

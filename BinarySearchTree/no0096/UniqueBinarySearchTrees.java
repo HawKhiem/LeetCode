@@ -1,4 +1,4 @@
-package no0096;
+package BinarySearchTree.no0096;
 
 public class UniqueBinarySearchTrees {
     public static void main(String[] args) {

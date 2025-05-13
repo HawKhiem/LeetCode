@@ -1,4 +1,4 @@
-package no0098;
+package BinarySearchTree.no0098;
 
 public class ValidateBinarySearchTree {
     public boolean isValidBST(TreeNode root) {
