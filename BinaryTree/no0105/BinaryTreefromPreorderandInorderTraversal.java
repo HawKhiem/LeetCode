@@ -10,6 +10,7 @@ public class BinaryTreefromPreorderandInorderTraversal {
     //  mentioned earlier, after the root comes the left subtree then the right one. The index in inorder basically tells us how many
     //  nodes are in the left subtree, i.e if the index of the root is 1, then there is exactly one node in the left subtree. We can base
     //  on this fact to split the rest of the preorder array.
+    //  Summary: inorder: left - root - right | preorder: root - left - right
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         if (preorder.length == 0 || inorder.length == 0) {
             return null;
