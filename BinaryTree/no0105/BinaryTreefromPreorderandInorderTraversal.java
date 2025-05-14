@@ -51,4 +51,25 @@ public class BinaryTreefromPreorderandInorderTraversal {
             this.right = right;
         }
     }
+    // TODO - a way faster solution:
+    //    int preIdx;
+    //    int inIdx;
+    //    public TreeNode buildTree(int[] preorder, int[] inorder) {
+    //        preIdx = 0;
+    //        inIdx = 0;
+    //        return build(preorder, inorder, Integer.MAX_VALUE);
+    //    }
+    //    public TreeNode build(int[] preorder, int[] inorder, int limit) {
+    //        if (preIdx == preorder.length) {
+    //            return null;
+    //        } else if (inorder[inIdx] == limit) {
+    //            inIdx++;
+    //            return null;
+    //        }
+    //        int rootVal = preorder[preIdx++];
+    //        TreeNode node = new TreeNode(rootVal);
+    //        node.left = build(preorder, inorder, rootVal);
+    //        node.right = build(preorder, inorder, limit);
+    //        return node;
+    //    }
 }
