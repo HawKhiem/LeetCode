@@ -1,4 +1,4 @@
-package BinarySearchTree.no103;
+package BFS.no0103;
 
 import java.util.*;
 

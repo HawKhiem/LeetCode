@@ -1,4 +1,4 @@
-package BinarySearchTree.no101;
+package BinarySearchTree.no0101;
 
 public class SymmetricTree {
     public boolean isSymmetric(TreeNode root) {
