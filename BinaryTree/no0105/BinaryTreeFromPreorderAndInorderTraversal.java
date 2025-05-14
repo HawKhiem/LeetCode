@@ -2,7 +2,7 @@ package BinaryTree.no0105;
 
 import java.util.Arrays;
 
-public class BinaryTreefromPreorderandInorderTraversal {
+public class BinaryTreeFromPreorderAndInorderTraversal {
     // TODO - The logic behind this is, in preorder the root always comes first then comes the left subtree, then the right one
     //  in inorder, the left sub tree comes first, then the root, then the right one. Therefore we first identify the root, which is
     //  the first element in preorder, then find its index in the inorder array. All the values that come before such index are those
