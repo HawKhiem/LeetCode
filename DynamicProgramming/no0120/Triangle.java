@@ -1,4 +1,4 @@
-package Math.no0120;
+package DynamicProgramming.no0120;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,8 +12,6 @@ public class Triangle {
         return minimumTotalHelper(triangle, dp, 0, 0);
     }
 
-    // TODO - use dynamic programming to utilize the tree like structure of the triangle. As we are going down the triangle to sum up the values, we could be traversing in
-    //  the same path we have been to before, therefore we could use dynamic programming
     private int minimumTotalHelper(List<List<Integer>> triangle, Integer[][] dp, int depth, int index) {
         if (depth == triangle.size() - 1) {
             return triangle.get(depth).get(index);
