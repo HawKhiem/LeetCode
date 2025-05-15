@@ -7,13 +7,13 @@ import java.util.List;
 public class PascalTriangle {
     public List<List<Integer>> generate(int numRows) {
         if (numRows == 1) {
-            return List.of(Arrays.asList(1));
+            return List.of(List.of(1));
         }
         if (numRows == 2) {
-            return List.of(Arrays.asList(1), Arrays.asList(1, 1));
+            return List.of(List.of(1), Arrays.asList(1, 1));
         }
         List<List<Integer>> result = new ArrayList<>();
-        result.add(Arrays.asList(1));
+        result.add(List.of(1));
         result.add(Arrays.asList(1, 1));
         int i = 3;
         while (i <= numRows) {

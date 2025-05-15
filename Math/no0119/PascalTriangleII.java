@@ -11,6 +11,7 @@ public class PascalTriangleII {
         for (int i = 0; i <= rowIndex; i++) {
             nums[0] = 1;
             nums[i] = 1;
+            /// prev and cur allow us to get the value of nums[index-1] before being changed
             int prev = 1;
             int cur;
             while (index < i) {
