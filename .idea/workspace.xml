@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df022ee7-534f-4381-a085-2661484b0c80" name="Changes" comment="update structures">
-      <change afterPath="$PROJECT_DIR$/Math/no0118/PascalTriangle.java" afterDir="false" />
+    <list default="true" id="df022ee7-534f-4381-a085-2661484b0c80" name="Changes" comment="pascal triangle">
+      <change afterPath="$PROJECT_DIR$/Math/no0119/PascalTriangleII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Math/no0118/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Math/no0118/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math/no0119/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Math/no0119/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +122,7 @@
       <workItem from="1747225218047" duration="3211000" />
       <workItem from="1747231795423" duration="15915000" />
       <workItem from="1747291327599" duration="3068000" />
-      <workItem from="1747320040040" duration="1444000" />
+      <workItem from="1747320040040" duration="7522000" />
     </task>
     <task id="LOCAL-00003" summary="unique binary search trees II using dynamic programming and add readmes">
       <option name="closed" value="true" />
@@ -404,14 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1747321704759</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="pascal triangle">
+      <option name="closed" value="true" />
+      <created>1747321829562</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1747321829562</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="symmetric trees" />
     <MESSAGE value="recover binary search trees" />
     <MESSAGE value="binary tree level order with BFS" />
     <MESSAGE value="updates some links" />
@@ -436,7 +443,8 @@
     <MESSAGE value="binary tree to linked list" />
     <MESSAGE value="distinct subsequences" />
     <MESSAGE value="update structures" />
-    <option name="LAST_COMMIT_MESSAGE" value="update structures" />
+    <MESSAGE value="pascal triangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="pascal triangle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
