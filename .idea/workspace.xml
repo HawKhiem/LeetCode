@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df022ee7-534f-4381-a085-2661484b0c80" name="Changes" comment="best time to buy and sell stock 1">
+    <list default="true" id="df022ee7-534f-4381-a085-2661484b0c80" name="Changes" comment="best time to buy and sell stock 2">
+      <change afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0123/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0124/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0125/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0126/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0127/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0128/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0129/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0130/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0131/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0132/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0122/BestTimeToBuyAndSellStockII.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0122/BestTimeToBuyAndSellStockII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0121/BestTimeToBuyAndSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0121/BestTimeToBuyAndSellStock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,33 +59,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.InterleavingString.executor": "Run",
-    "Application.UniqueBinarySearchTrees.executor": "Run",
-    "Application.UniqueBinarySearchTreesII.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "D:/Self Taught/LeetCode/DynamicProgramming",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.InterleavingString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UniqueBinarySearchTrees.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UniqueBinarySearchTreesII.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Self Taught/LeetCode/NOTYETCATEGORIZED&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Self Taught\LeetCode\NOTYETCATEGORIZED" />
       <recent name="D:\Self Taught\LeetCode\DynamicProgramming" />
       <recent name="D:\Self Taught\LeetCode\BFS" />
       <recent name="D:\Self Taught\LeetCode\HashMap" />
       <recent name="D:\Self Taught\LeetCode\Math" />
-      <recent name="D:\Self Taught\LeetCode\BinaryTree" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="BinaryTree" />
@@ -121,7 +131,10 @@
       <workItem from="1747225218047" duration="3211000" />
       <workItem from="1747231795423" duration="15915000" />
       <workItem from="1747291327599" duration="3068000" />
-      <workItem from="1747320040040" duration="15649000" />
+      <workItem from="1747320040040" duration="15741000" />
+      <workItem from="1747463150259" duration="136000" />
+      <workItem from="1747650631750" duration="4707000" />
+      <workItem from="1747847851448" duration="1210000" />
     </task>
     <task id="LOCAL-00003" summary="unique binary search trees II using dynamic programming and add readmes">
       <option name="closed" value="true" />
@@ -443,14 +456,21 @@
       <option name="project" value="LOCAL" />
       <updated>1747340049303</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="best time to buy and sell stock 2">
+      <option name="closed" value="true" />
+      <created>1747348703210</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1747348703210</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update some structures" />
     <MESSAGE value="Change structures" />
     <MESSAGE value="max depth with recursive DFS" />
     <MESSAGE value="update DFS folder" />
@@ -475,7 +495,8 @@
     <MESSAGE value="add some explanation" />
     <MESSAGE value="minimum total with dynamic programming and backtracking" />
     <MESSAGE value="best time to buy and sell stock 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="best time to buy and sell stock 1" />
+    <MESSAGE value="best time to buy and sell stock 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="best time to buy and sell stock 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

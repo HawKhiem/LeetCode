@@ -26,4 +26,25 @@ public class BestTimeToBuyAndSellStock {
         }
         return profit;
     }
+
+    // TODO - a beautiful solution:
+    //     public int maxProfit(int[] a) {
+    //        int least = Integer.MAX_VALUE;
+    //        int max = 0 ;
+    //        for(int i = 0 ; i<a.length; i++)
+    //        {
+    //            int profit = a[i]-least;
+    //            /// rising trend, potential sell point
+    //            if(profit>=0)
+    //            {
+    //                max = (profit > max)? profit : max;
+    //            }
+    //            /// otherwise, it means we have a value smaller than least
+    //            else
+    //            {
+    //                least = a[i];
+    //            }
+    //        }
+    //        return max;
+    //    }
 }
