@@ -1,4 +1,4 @@
-package NOTYETCATEGORIZED.no0122;
+package Array.no0122;
 
 public class BestTimeToBuyAndSellStockII {
 

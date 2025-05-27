@@ -1,4 +1,4 @@
-package NOTYETCATEGORIZED.no0121;
+package Array.no0121;
 
 public class BestTimeToBuyAndSellStock {
     public int maxProfit(int[] prices) {
