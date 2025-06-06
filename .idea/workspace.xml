@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df022ee7-534f-4381-a085-2661484b0c80" name="Changes" comment="BestTimeToBuyAndSellStockIII with DP and Divide and Conquer">
-      <change afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0124/BinaryTreeMaximumPathSum.java" afterDir="false" />
+    <list default="true" id="df022ee7-534f-4381-a085-2661484b0c80" name="Changes" comment="Update structures">
+      <change afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0125/ValidPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DivideAndConquer/no0123/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/DivideAndConquer/no0123/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DynamicProgramming/no0123/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/no0123/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0124/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0124/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0125/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0125/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0126/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0126/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0127/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0127/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0128/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0128/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0129/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0129/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0130/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0130/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0131/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0131/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0132/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTYETCATEGORIZED/no0132/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +62,13 @@
     "Application.InterleavingString.executor": "Run",
     "Application.UniqueBinarySearchTrees.executor": "Run",
     "Application.UniqueBinarySearchTreesII.executor": "Run",
+    "Application.ValidPalindrome.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "D:/Self Taught/LeetCode/DivideAndConquer",
+    "last_opened_file_path": "D:/Self Taught/LeetCode/BinaryTree",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -74,11 +80,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Self Taught\LeetCode\BinaryTree" />
+      <recent name="D:\Self Taught\LeetCode\DFS" />
       <recent name="D:\Self Taught\LeetCode\DivideAndConquer" />
       <recent name="D:\Self Taught\LeetCode\NOTYETCATEGORIZED" />
       <recent name="D:\Self Taught\LeetCode\DynamicProgramming" />
-      <recent name="D:\Self Taught\LeetCode\BFS" />
-      <recent name="D:\Self Taught\LeetCode\HashMap" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="DynamicProgramming" />
@@ -91,8 +97,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
       </set>
     </attachedChunks>
   </component>
@@ -130,7 +136,11 @@
       <workItem from="1747847851448" duration="4309000" />
       <workItem from="1747946326753" duration="1673000" />
       <workItem from="1748017256631" duration="4842000" />
-      <workItem from="1748372521258" duration="10448000" />
+      <workItem from="1748372521258" duration="10647000" />
+      <workItem from="1748465210905" duration="4203000" />
+      <workItem from="1748620911686" duration="5396000" />
+      <workItem from="1748790930646" duration="2882000" />
+      <workItem from="1749233060001" duration="2305000" />
     </task>
     <task id="LOCAL-00003" summary="unique binary search trees II using dynamic programming and add readmes">
       <option name="closed" value="true" />
@@ -476,15 +486,29 @@
       <option name="project" value="LOCAL" />
       <updated>1748377342803</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Binary Tree Maximum Path Sum with DFS">
+      <option name="closed" value="true" />
+      <created>1748383599373</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1748383599373</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Update structures">
+      <option name="closed" value="true" />
+      <created>1748383649505</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1748383649505</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update DFS folder" />
-    <MESSAGE value="max depth with iterative dfs and bfs" />
     <MESSAGE value="binary tree preorder and inorder connection" />
     <MESSAGE value="add a faster solution" />
     <MESSAGE value="add explanation" />
@@ -508,7 +532,9 @@
     <MESSAGE value="best time to buy and sell stock 2" />
     <MESSAGE value="add some READMEs" />
     <MESSAGE value="BestTimeToBuyAndSellStockIII with DP and Divide and Conquer" />
-    <option name="LAST_COMMIT_MESSAGE" value="BestTimeToBuyAndSellStockIII with DP and Divide and Conquer" />
+    <MESSAGE value="Binary Tree Maximum Path Sum with DFS" />
+    <MESSAGE value="Update structures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update structures" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -518,10 +544,15 @@
           <line>8</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/NOTYETCATEGORIZED/no0125/ValidPalindrome.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/BinarySearchTree/no0095/UniqueBinarySearchTreesII.java</url>
           <line>11</line>
-          <properties class="BinarySearchTree.no0095.UniqueBinarySearchTreesII">
+          <properties class="BinarySearchTree.no0095.UniqueBinarySearchTreesII" method="generateTrees">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -544,6 +575,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/NOTYETCATEGORIZED/no0125/ValidPalindrome.java</url>
+          <line>8</line>
+          <properties class="NOTYETCATEGORIZED.no0125.ValidPalindrome" method="isPalindrome">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
